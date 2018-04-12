@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatHeartViewAttr">
+        <attr name="tagIconWidth" format="dimension" />
+        <attr name="tagIconHeight" format="dimension" />
+        <attr name="tagIconSrc" format="reference" />
+
+        <attr name="floatIconWidth" format="dimension" />
+        <attr name="floatIconHeight" format="dimension" />
+        <attr name="floatIconSrc" format="reference" />
+
+        <attr name="animMaxWidth" format="dimension" />
+        <attr name="animMinWidth" format="dimension" />
+
+        <attr name="animMaxHeight" format="dimension" />
+        <attr name="animMinHeight" format="dimension" />
+
+        <attr name="animDuration" format="integer" />
+
+
+    </declare-styleable>
+</resources>

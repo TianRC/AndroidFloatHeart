@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.trc.floatheartview.FloatHeartView
+    <com.trc.floatheart.FloatHeartView
         android:id="@+id/fhv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,22 +13,65 @@
         app:floatIconWidth="10dp"
         app:tagIconSrc="@mipmap/heart3"
         app:tagIconWidth="10dp">
-
+        <!---->
         <ImageView
             android:id="@+id/tagIv"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="200dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="500dp"
             android:alpha="1"
             android:src="@mipmap/heart3" />
-    </com.trc.floatheartview.FloatHeartView>
+
+    </com.trc.floatheart.FloatHeartView>
+
+    <com.trc.floatheart.FloatHeartView
+        android:id="@+id/fhv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        app:floatIconHeight="10dp"
+        app:floatIconWidth="10dp"
+        app:tagIconSrc="@mipmap/heart3"
+        app:tagIconWidth="10dp">
+        <!---->
+        <ImageView
+            android:id="@+id/tagIv1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="500dp"
+            android:alpha="1"
+            android:src="@mipmap/heart4" />
+    </com.trc.floatheart.FloatHeartView>
+
+    <com.trc.floatheart.FloatHeartView
+        android:id="@+id/fhv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        app:floatIconHeight="10dp"
+        app:floatIconWidth="10dp"
+        app:animMaxHeight="400dp"
+        app:animMinHeight="200dp"
+        app:tagIconSrc="@mipmap/heart3"
+        app:tagIconWidth="10dp">
+        <!---->
+        <ImageView
+            android:id="@+id/tagIv2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="500dp"
+            android:alpha="1"
+            android:src="@mipmap/heart2" />
+    </com.trc.floatheart.FloatHeartView>
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="点击飘心" />
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.trc.floatheartview;
+package com.trc.floatheart;
 
 import android.content.Context;
 
