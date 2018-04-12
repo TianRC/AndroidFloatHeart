@@ -5,36 +5,30 @@
     android:layout_height="match_parent">
 
     <com.trc.floatheartview.FloatHeartView
+        android:id="@+id/fhv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorAccent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="wqefgdewfgdsafsafgdcsafvdcsdfgbdsa"/>
-    </com.trc.floatheartview.FloatHeartView>
-
-    <RelativeLayout
-        android:id="@+id/rl"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:background="#00000000"
+        app:floatIconHeight="10dp"
+        app:floatIconWidth="10dp"
+        app:tagIconSrc="@mipmap/heart3"
+        app:tagIconWidth="10dp">
 
         <ImageView
-            android:id="@+id/iv"
+            android:id="@+id/tagIv"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="59dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="300dp"
             android:alpha="1"
-            android:src="@mipmap/ic_launcher" />
-    </RelativeLayout>
+            android:src="@mipmap/heart3" />
+    </com.trc.floatheartview.FloatHeartView>
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
 
 </RelativeLayout>
