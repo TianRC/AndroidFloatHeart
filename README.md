@@ -19,77 +19,47 @@
 
 #### 2：The project directory build.gradle relies on the DashBoard framework
 
-        implementation 'com.github.trc1993:dashboard:1.0.0'
+        implementation 'com.github.trc1993:AndroidFloatHeart:1.0.0'
 
 
 ### 在xml您可以这样使用它
 
 
-    <com.dashboard.trc.DashboardView
-        android:id="@+id/dashboardView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="150dp"
-        android:foregroundGravity="center"
-        app:bigSliceCount="6"
-        app:headerRadius="20dp"
-        app:headerTitle="km/h"
-        app:maxValue="240"
-        app:measureTextSize="12sp"
-        app:radius="100dp"
-        app:startAngle="135"
-        app:stripeMode="inner"
-        app:stripeWidth="16dp"
-        app:sweepAngle="270" />
+    <com.trc.floatheart.FloatHeartView
+        android:id="@+id/fhv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        app:floatIconHeight="10dp"
+        app:floatIconWidth="10dp"
+        app:tagIconSrc="@mipmap/heart3"
+        app:tagIconWidth="10dp">
+        <!--这个ImageView是显示在底部-->
+        <ImageView
+            android:id="@+id/tagIv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="500dp"
+            android:alpha="1"
+            android:src="@mipmap/heart3" />
+    </com.trc.floatheart.FloatHeartView>
 
 
-### 当然你也可以在代码中[使用](app/src/main/java/com/dashboard/trc/dashboard/MainActivity.java)
+### 代码中调用它
 
-
-        dashboardView.setSmallSliceRadius(90);
-        dashboardView.setBigSliceRadius(120);
-        /**设置字体颜色*/
-        dashboardView.setTextColor(Color.BLACK);
-        dashboardView.setBigSliceCount(10);
-        /** 设置色带宽度*/
-        dashboardView.setStripeWidth(20);
-        /**设置Title位置*/
-        dashboardView.setHeaderRadius(40);
-        /** 设置Title大小*/
-        dashboardView.setHeaderTextSize(15);
-        /** 设置指针长度*/
-        dashboardView.setPointerRadius(60);
-        /**设置色带模式*/
-        dashboardView.setStripeMode(DashboardView.StripeMode.INNER);
-        /**设置刻度颜色*/
-        dashboardView.setArcColor(Color.WHITE);
-        /**设置数字弧度*/
-        dashboardView.setNumMeaRadius(70);
-        dashboardView.setRealValue(0);
-        /**设置最大最下值*/
-        dashboardView.setMaxValue(100);
-        dashboardView.setMinValue(0);
-        /**设置仪表盘的色带颜色*/
-        List<AngleBean> data = new ArrayList<>();
-        data.add(new AngleBean(0, 10, "#EEC591"));
-        data.add(new AngleBean(10, 20, "#EEA9B8"));
-        data.add(new AngleBean(20, 30, "#EEA2AD"));
-        data.add(new AngleBean(30, 40, "#EE6363"));
-        data.add(new AngleBean(40, 50, "#EE5C42"));
-        data.add(new AngleBean(50, 60, "#EE4000"));
-        data.add(new AngleBean(60, 70, "#EE3B3B"));
-        data.add(new AngleBean(70, 80, "#63B8FF"));
-        data.add(new AngleBean(80, 90, "#5F9EA0"));
-        data.add(new AngleBean(90, 100, "#5C5C5C"));
-        dashboardView.setStripeHighlightColorAndRange(DashBoardManager.calibration2Angle(data, dashboardView));
+   /***
+     *
+     * @param startLocationIv 就是包裹这个view下的ImageView，需要他的位置
+     * @param redId 飘出来的资源图片
+     */
+        addFloatHeart(ImageView startLocationIv, int redId)
 
 
 ## Attributes
 
 [attr.xml](dashboardview/src/main/res/values/attrs.xml)
 
-有任何问题请联系我QQ:1129440815,持续跟新...
+有任何问题请联系我QQ:1129440815,如果帮到你了，可不可以给个start，谢谢支持，我会持续跟新...
 
 

@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+
 import java.util.Random;
 
 
@@ -138,19 +139,30 @@ public class FloatHeartView extends RelativeLayout {
         FRl = findViewById(R.id.rl);
     }
 
+    /***
+     *
+     * @param startLocationIv 就是包裹这个view下的ImageView，需要他的位置
+     * @param redId 飘出来的资源图片
+     */
     public void addFloatHeart(ImageView startLocationIv, int redId) {
         addFHeart(startLocationIv, redId2Drawable(redId));
     }
 
-    public void addFloatHeart(int redId) {
-        addFHeart(this.iv, redId2Drawable(redId));
+    /***
+     *
+     * @param startLocationIv 就是包裹这个view下的ImageView，需要他的位置
+     * 飘出来的资源图片和底部显示的图片一样
+     */
+    public void addFloatHeart(ImageView startLocationIv) {
+        addFHeart(startLocationIv, startLocationIv.getDrawable());
     }
 
-    public void addFloatHeart() {
-        addFHeart(this.iv, floatIconSrc);
-    }
-
-
+    /**
+     * 开始飘心 come on 小baby
+     *
+     * @param startLocationIv
+     * @param floatDrawable
+     */
     private void addFHeart(ImageView startLocationIv, Drawable floatDrawable) {
         int min = animMinWidth;
         int max = animMaxWidth;
