@@ -6,7 +6,10 @@
 ## 效果图：
 
 <img src="https://s19.aconvert.com/convert/p3r68-cdx67/aoii3-pc1aa.gif" width="280" height="466"/>
-
+<video width="320" height="240" controls>
+    <source src="readme_resoutces/fff.mp4" type="video/mp4">
+    您的浏览器不支持 video 标签。
+</video>
 
 ## 使用方法：
 ### Gradle
