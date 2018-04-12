@@ -1,4 +1,4 @@
-# Android DashBoard 仪表盘
+# Android FloatHeartView 直播间飘心效果
 
 ## 效果图：
 
@@ -15,7 +15,7 @@
         　　}
         }
 
-#### 2：The project directory build.gradle relies on the DashBoard framework
+#### 2：The project directory build.gradle relies on the AndroidFloatHeart framework
 
         implementation 'com.github.trc1993:AndroidFloatHeart:1.0.0'
 
@@ -87,7 +87,7 @@
      
 ## Attributes
 
-[attr.xml](dashboardview/src/main/res/values/attrs.xml)
+[attr.xml](floatheart/src/main/res/values/attrs.xml)
 
 有任何问题请联系我QQ:1129440815,如果帮到你了，可不可以给个start，谢谢支持，我会持续跟新...
 

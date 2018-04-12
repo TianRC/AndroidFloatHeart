@@ -4,19 +4,19 @@
         <attr name="tagIconWidth" format="dimension" />
         <attr name="tagIconHeight" format="dimension" />
         <attr name="tagIconSrc" format="reference" />
-
+        <!--飘心的宽高和src-->
         <attr name="floatIconWidth" format="dimension" />
         <attr name="floatIconHeight" format="dimension" />
         <attr name="floatIconSrc" format="reference" />
-
+        <!--飘心动画宽度范围，必须注意的是max必须大于min，
+        建议 max大于零，min小于零 这样更加好看-->
         <attr name="animMaxWidth" format="dimension" />
         <attr name="animMinWidth" format="dimension" />
-
+        <!--飘心动画高度范围，必须注意的是max必须大于min-->
         <attr name="animMaxHeight" format="dimension" />
         <attr name="animMinHeight" format="dimension" />
-
+        <!--动画时长-->
         <attr name="animDuration" format="integer" />
-
 
     </declare-styleable>
 </resources>
