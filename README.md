@@ -3,12 +3,12 @@
  [![](https://jitpack.io/v/trc1993/AndroidFloatHeart.svg)](https://jitpack.io/#trc1993/AndroidFloatHeart)
 
 
-## 效果图：
+## Rendering：
 
 <img src="readme_resources/fff.gif" width="280" height="466"/>
 
 
-## 使用方法：
+## How to use：
 ### Gradle
 #### 1：In the project root directory build.gradle
 
@@ -23,7 +23,7 @@
         implementation 'com.github.trc1993:AndroidFloatHeart:1.0.1'
 
 
-### 在xml您可以这样使用它
+### Usage in xml
 
 
     <com.trc.floatheart.FloatHeartView
@@ -47,7 +47,7 @@
     </com.trc.floatheart.FloatHeartView>
 
 
-### 代码中调用它
+### Usage in java
 
 
      /***
@@ -58,7 +58,7 @@
      addFloatHeart(ImageView startLocationIv, int redId)
 
 
-## 实现逻辑：
+## Implementation logic：
 
     
       Created by 差不多的TRC on 2018/4/11.
