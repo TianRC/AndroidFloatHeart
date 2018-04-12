@@ -48,12 +48,13 @@
 
 ### 代码中调用它
 
-   /***
+
+     /***
      *
      * @param startLocationIv 就是包裹这个view下的ImageView，需要他的位置
      * @param redId 飘出来的资源图片
      */
-        addFloatHeart(ImageView startLocationIv, int redId)
+     addFloatHeart(ImageView startLocationIv, int redId)
 
 
 ## Attributes
