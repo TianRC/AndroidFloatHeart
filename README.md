@@ -5,7 +5,7 @@
 
 ## 效果图：
 
-<img src="readme_resoutces/fff.gif" width="280" height="466"/>
+<img src="readme_resources/fff.gif" width="280" height="466"/>
 
 
 ## 使用方法：
