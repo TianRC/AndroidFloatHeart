@@ -1,8 +1,11 @@
 # Android FloatHeartView 直播间飘心效果
 
+ [![](https://jitpack.io/v/trc1993/AndroidFloatHeart.svg)](https://jitpack.io/#trc1993/AndroidFloatHeart)
+
+
 ## 效果图：
 
-<img src="https://s19.aconvert.com/convert/p3r68-cdx67/kq4fi-wgcnl.gif" width="280" height="466"/>
+<img src="https://s19.aconvert.com/convert/p3r68-cdx67/aoii3-pc1aa.gif" width="280" height="466"/>
 
 
 ## 使用方法：
