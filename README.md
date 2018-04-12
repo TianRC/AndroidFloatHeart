@@ -1,7 +1,6 @@
 # Android FloatHeartView 直播间飘心效果
 
- [![](https://jitpack.io/v/trc1993/AndroidFloatHeart.svg)](https://jitpack.io/#trc1993/AndroidFloatHeart)
-
+[![](https://jitpack.io/v/trc1993/AndroidFloatHeart.svg)](https://jitpack.io/#trc1993/AndroidFloatHeart)
 
 ## Rendering：
 
